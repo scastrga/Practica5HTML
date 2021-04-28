@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+      <!--Cabezera-->
+      <header>
+        <nav>
+            <h1>Practica para Everis</h1>
+            <div id="container">
+                <form>
+                    <!-- usuario -->
+                    <label for="name">Usuario:</label>
+                    <input type="name"><br><br>
+                    <!-- contraseña -->
+                    <label for="username">Contraseña:</label>
+                    <input type="password"><p><a href="#">Olvidaste la contraseña?</a>
+                    <div id="lower">
+                        <input type="checkbox"><label class="check" for="checkbox">Mantener la sesion</label>
+                        <!-- boton submit -->
+                        <input type="submit" value="Login">
+                    </div>
+                    <div>
+                        <!-- logo -->
+                    <figure><img src="./img/logo.webp" alt="" width="75px" height="75px"></figure>
+                </div>
+                </form>       
+            </div>
+        </nav>
+    </header>
+
+    <nav>
+        <table>
+            <!-- Menu de navegación-->
+            <caption><br> Menu</caption>
+            <tr>
+                <th><a href="./index.html">Pagina principal</a></th>
+                <th><a href="./formulario.html">Formulario</a></th>
+            </tr>
+
+        </table>
+    </nav>
+
+    <form>
+        <fieldset>
+            <!-- Formulario-->
+            <!-- <br> ya no se usa, pero lo usare por ahora hasta que sepa aplicar bien los estilos -->
+            <legend>Formulario Basico</legend>
+            <label for="Nombre">Nombre <br><input type="text" required></label><br><br>
+            <label for="Apellidos">Apellidos <br><input type="text" required></label><br><br>
+            <label for="Numero telefono">Nº Telefono <br><input type="tel" name="telefono" required ><br><br>
+            <label for="Correo E">Correo electronico <br><input type="email" required></label><br><br>
+            <label for="Contraseña">Contraseña <br><input type="contraseña" required pattern=".{6,}"></label><br><br>
+            <label for="Fecha admision">Fecha admision <br><input type="date" required></label><br><br>
+            <label for="Foto">Foto del solicitante <br><input type="FILE" accept="png, jpg, " required></label><br><br>
+            <label for="CheckBox">Marque en caso de tener coche <br><input type="checkbox" name="" id=""></label><br>
+            <label for="Radio"><p>En que horario prefiere trabajar</p></label>
+            <label for="choice1">Mañana <input type="radio" name="horario" id="1"></label><br><br>
+            <label for="choice2">Tarde <input type="radio" name="horario" id="2"></label><br><br>
+            <label for="choice3">Noche <input type="radio" name="horario" id="3"></label><br><br><br>
+            <label for="Envio">Enviar <input type="submit" value=""></label>
+        </fieldset>
+    </form>
+
+</body>
+
+<footer>
+    <div>
+        <a href="http://www.google.es">Enlace a google</a>
+        <a href="http://www.wikipedia.es">Enlace a wikipedia</a>
+        <figure><img src="./img/logo.webp" alt="" width="75px" height="75px"></figure>
+    </div>
+</footer>
+
+</html>
